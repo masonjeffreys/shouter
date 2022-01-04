@@ -11,6 +11,7 @@
                  [ring/ring-defaults "0.1.2"]
                  [hiccup "1.0.5"]]
   :main ^:skip-aot shouter.web
+  :min-lein-version "2.0.0"
   :uberjar-name "shouter-standalone.jar"
   :plugins [[lein-ring "0.8.13"]]
   :ring {:handler shouter.web/application
